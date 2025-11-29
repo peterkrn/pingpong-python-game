@@ -92,7 +92,7 @@ while game:
            game_over = True
 
 
-       #if ball flies behind this paddle, display loss condition for player 2
+       #if the ball flies behind this paddle, display loss condition for player 2
        if ball.rect.x > win_width:
            finish = True
            window.blit(lose2, (200, 200))
