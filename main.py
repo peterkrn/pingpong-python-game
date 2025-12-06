@@ -1,8 +1,9 @@
 from pygame import *
 '''Required classes'''
 
+test_variable = 10
+print(test_variable)
 
-#parent class for sprites
 class GameSprite(sprite.Sprite):
    def __init__(self, player_image, player_x, player_y, player_speed, weight, height):
        super().__init__()
